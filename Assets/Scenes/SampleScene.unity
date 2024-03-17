@@ -659,7 +659,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9659795, b: 0.0141509175, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3046,6 +3046,44 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -1824824446595371411, guid: b5f2f23024d41461aa653a5f82d4dccf, type: 3}
   m_PrefabInstance: {fileID: 1153900836}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &964741865 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5708074753099445931, guid: 57aae5323bf504ec5808bcc211f63fad, type: 3}
+  m_PrefabInstance: {fileID: 1898149582892550731}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &964741867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964741865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fc065d9d3e544deaa179152a9264e27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &964741868
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964741865}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.006789409, y: 0.006967862, z: 0.10668375}
+  m_Center: {x: 0.000039459414, y: -0.00033744492, z: 0.052867614}
 --- !u!4 &977589373 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8286931143383454865, guid: b5f2f23024d41461aa653a5f82d4dccf, type: 3}
@@ -8002,6 +8040,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Agua
       objectReference: {fileID: 0}
+    - target: {fileID: 266987783992498948, guid: 57aae5323bf504ec5808bcc211f63fad, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 358332329922828007, guid: 57aae5323bf504ec5808bcc211f63fad, type: 3}
       propertyPath: m_TagString
       value: Agua
@@ -8157,7 +8199,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5708074753099445931, guid: 57aae5323bf504ec5808bcc211f63fad, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 964741868}
+    - targetCorrespondingSourceObject: {fileID: 5708074753099445931, guid: 57aae5323bf504ec5808bcc211f63fad, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 964741867}
   m_SourcePrefab: {fileID: 100100000, guid: 57aae5323bf504ec5808bcc211f63fad, type: 3}
 --- !u!1001 &8820934087899001095
 PrefabInstance:
